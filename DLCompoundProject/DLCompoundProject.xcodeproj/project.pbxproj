@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2B219C1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B219B1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m */; };
+		BC2B21A11CB62F4000088B77 /* DLTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21A01CB62F4000088B77 /* DLTransitionAnimator.m */; };
+		BC2B21A71CB6365000088B77 /* DL3DTransitionMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21A61CB6365000088B77 /* DL3DTransitionMenuTableViewController.m */; };
+		BC2B21AA1CB636A900088B77 /* DLMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21A91CB636A900088B77 /* DLMenuModel.m */; };
+		BC2B21AD1CB63C0500088B77 /* DL3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21AC1CB63C0500088B77 /* DL3DViewController.m */; };
+		BC2B21B01CB6459900088B77 /* DL3DMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21AF1CB6459900088B77 /* DL3DMainViewController.m */; };
 		BC4CFCFA1CB4EF7500821D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFCF91CB4EF7500821D1F /* main.m */; };
 		BC4CFCFD1CB4EF7500821D1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFCFC1CB4EF7500821D1F /* AppDelegate.m */; };
 		BC4CFD001CB4EF7500821D1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFCFF1CB4EF7500821D1F /* ViewController.m */; };
@@ -24,15 +30,30 @@
 		BC4CFD331CB4F05900821D1F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD251CB4F05900821D1F /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		BC4CFD341CB4F05900821D1F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD271CB4F05900821D1F /* View+MASAdditions.m */; };
 		BC4CFD351CB4F05900821D1F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD2A1CB4F05900821D1F /* ViewController+MASAdditions.m */; };
+		BC4CFD391CB4F3EA00821D1F /* DLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD381CB4F3EA00821D1F /* DLCollectionView.m */; };
+		BC5FA37F1CB4FA1F001CF4E9 /* DLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2B21991CB5F69F00088B77 /* DLCompoundProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCompoundProject.pch; sourceTree = "<group>"; };
+		BC2B219A1CB60F9300088B77 /* DLRedirectFromTbaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRedirectFromTbaleViewController.h; sourceTree = "<group>"; };
+		BC2B219B1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRedirectFromTbaleViewController.m; sourceTree = "<group>"; };
+		BC2B219F1CB62F4000088B77 /* DLTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTransitionAnimator.h; sourceTree = "<group>"; };
+		BC2B21A01CB62F4000088B77 /* DLTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTransitionAnimator.m; sourceTree = "<group>"; };
+		BC2B21A51CB6365000088B77 /* DL3DTransitionMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DL3DTransitionMenuTableViewController.h; sourceTree = "<group>"; };
+		BC2B21A61CB6365000088B77 /* DL3DTransitionMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DL3DTransitionMenuTableViewController.m; sourceTree = "<group>"; };
+		BC2B21A81CB636A900088B77 /* DLMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMenuModel.h; sourceTree = "<group>"; };
+		BC2B21A91CB636A900088B77 /* DLMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMenuModel.m; sourceTree = "<group>"; };
+		BC2B21AB1CB63C0500088B77 /* DL3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DL3DViewController.h; sourceTree = "<group>"; };
+		BC2B21AC1CB63C0500088B77 /* DL3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DL3DViewController.m; sourceTree = "<group>"; };
+		BC2B21AE1CB6459900088B77 /* DL3DMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DL3DMainViewController.h; sourceTree = "<group>"; };
+		BC2B21AF1CB6459900088B77 /* DL3DMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DL3DMainViewController.m; sourceTree = "<group>"; };
 		BC4CFCF51CB4EF7500821D1F /* DLCompoundProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLCompoundProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4CFCF91CB4EF7500821D1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC4CFCFB1CB4EF7500821D1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC4CFCFC1CB4EF7500821D1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BC4CFCFE1CB4EF7500821D1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BC4CFCFF1CB4EF7500821D1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC4CFCFE1CB4EF7500821D1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		BC4CFCFF1CB4EF7500821D1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		BC4CFD021CB4EF7500821D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4CFD041CB4EF7500821D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4CFD071CB4EF7500821D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +84,10 @@
 		BC4CFD281CB4F05900821D1F /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		BC4CFD291CB4F05900821D1F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		BC4CFD2A1CB4F05900821D1F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BC4CFD371CB4F3EA00821D1F /* DLCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionView.h; sourceTree = "<group>"; };
+		BC4CFD381CB4F3EA00821D1F /* DLCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionView.m; sourceTree = "<group>"; };
+		BC5FA37D1CB4FA1F001CF4E9 /* DLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionViewCell.h; sourceTree = "<group>"; };
+		BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +101,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2B219D1CB62EFC00088B77 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B21A41CB6363000088B77 /* 3DTransition */,
+				BC4CFD361CB4F3C100821D1F /* CollectionViewEmbededTableView */,
+				BC2B219E1CB62EFC00088B77 /* TransitionAnimation */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BC2B219E1CB62EFC00088B77 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B219F1CB62F4000088B77 /* DLTransitionAnimator.h */,
+				BC2B21A01CB62F4000088B77 /* DLTransitionAnimator.m */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		BC2B21A41CB6363000088B77 /* 3DTransition */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B21A51CB6365000088B77 /* DL3DTransitionMenuTableViewController.h */,
+				BC2B21A61CB6365000088B77 /* DL3DTransitionMenuTableViewController.m */,
+				BC2B21AE1CB6459900088B77 /* DL3DMainViewController.h */,
+				BC2B21AF1CB6459900088B77 /* DL3DMainViewController.m */,
+				BC2B21A81CB636A900088B77 /* DLMenuModel.h */,
+				BC2B21A91CB636A900088B77 /* DLMenuModel.m */,
+				BC2B21AB1CB63C0500088B77 /* DL3DViewController.h */,
+				BC2B21AC1CB63C0500088B77 /* DL3DViewController.m */,
+			);
+			path = 3DTransition;
+			sourceTree = "<group>";
+		};
 		BC4CFCEC1CB4EF7500821D1F = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +154,8 @@
 		BC4CFCF71CB4EF7500821D1F /* DLCompoundProject */ = {
 			isa = PBXGroup;
 			children = (
+				BC2B219D1CB62EFC00088B77 /* Class */,
 				BC4CFD0F1CB4EFE400821D1F /* ThirdParty */,
-				BC4CFCFE1CB4EF7500821D1F /* ViewController.h */,
-				BC4CFCFF1CB4EF7500821D1F /* ViewController.m */,
 				BC4CFD011CB4EF7500821D1F /* Main.storyboard */,
 				BC4CFD041CB4EF7500821D1F /* Assets.xcassets */,
 				BC4CFCF81CB4EF7500821D1F /* Supporting Files */,
@@ -113,6 +171,7 @@
 				BC4CFD061CB4EF7500821D1F /* LaunchScreen.storyboard */,
 				BC4CFD091CB4EF7500821D1F /* Info.plist */,
 				BC4CFCF91CB4EF7500821D1F /* main.m */,
+				BC2B21991CB5F69F00088B77 /* DLCompoundProject.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +217,22 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		BC4CFD361CB4F3C100821D1F /* CollectionViewEmbededTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CFCFE1CB4EF7500821D1F /* ViewController.h */,
+				BC4CFCFF1CB4EF7500821D1F /* ViewController.m */,
+				BC4CFD371CB4F3EA00821D1F /* DLCollectionView.h */,
+				BC4CFD381CB4F3EA00821D1F /* DLCollectionView.m */,
+				BC5FA37D1CB4FA1F001CF4E9 /* DLCollectionViewCell.h */,
+				BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */,
+				BC2B219A1CB60F9300088B77 /* DLRedirectFromTbaleViewController.h */,
+				BC2B219B1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m */,
+			);
+			name = CollectionViewEmbededTableView;
+			path = ../CollectionViewEmbededTableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,6 +259,7 @@
 		BC4CFCED1CB4EF7500821D1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Dean Lee";
 				TargetAttributes = {
@@ -230,13 +306,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4CFD331CB4F05900821D1F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BC2B21AD1CB63C0500088B77 /* DL3DViewController.m in Sources */,
 				BC4CFD311CB4F05900821D1F /* MASViewConstraint.m in Sources */,
 				BC4CFD2C1CB4F05900821D1F /* MASCompositeConstraint.m in Sources */,
+				BC2B219C1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m in Sources */,
+				BC2B21B01CB6459900088B77 /* DL3DMainViewController.m in Sources */,
+				BC2B21A71CB6365000088B77 /* DL3DTransitionMenuTableViewController.m in Sources */,
 				BC4CFD321CB4F05900821D1F /* NSArray+MASAdditions.m in Sources */,
 				BC4CFD001CB4EF7500821D1F /* ViewController.m in Sources */,
+				BC2B21AA1CB636A900088B77 /* DLMenuModel.m in Sources */,
 				BC4CFCFD1CB4EF7500821D1F /* AppDelegate.m in Sources */,
+				BC5FA37F1CB4FA1F001CF4E9 /* DLCollectionViewCell.m in Sources */,
+				BC2B21A11CB62F4000088B77 /* DLTransitionAnimator.m in Sources */,
 				BC4CFD2F1CB4F05900821D1F /* MASLayoutConstraint.m in Sources */,
 				BC4CFCFA1CB4EF7500821D1F /* main.m in Sources */,
+				BC4CFD391CB4F3EA00821D1F /* DLCollectionView.m in Sources */,
 				BC4CFD351CB4F05900821D1F /* ViewController+MASAdditions.m in Sources */,
 				BC4CFD341CB4F05900821D1F /* View+MASAdditions.m in Sources */,
 				BC4CFD301CB4F05900821D1F /* MASViewAttribute.m in Sources */,
@@ -292,8 +376,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DLCompoundProject/DLCompoundProject.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -336,7 +423,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DLCompoundProject/DLCompoundProject.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -355,10 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DLCompoundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -366,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DLCompoundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject;
@@ -392,6 +485,7 @@
 				BC4CFD0E1CB4EF7500821D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
