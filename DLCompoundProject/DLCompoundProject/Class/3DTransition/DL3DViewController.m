@@ -38,7 +38,8 @@
     UIPanGestureRecognizer* panGeusture = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(handlePanGesture:)];
     [self.view addGestureRecognizer:panGeusture];
     [self setToPercent:0.0];
-    
+    [self.mainViewController updateMainView:@"☎︎" andColor:[UIColor redColor]];
+
     self.menuViewController.delegate = self;
 }
 

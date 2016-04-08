@@ -15,6 +15,7 @@
 {
     long selectRow;
 }
+
 @property (strong, nonatomic) IBOutlet DLCollectionView *navigateCollectionView;
 @property (weak, nonatomic) IBOutlet DLCollectionView *detailCollectionView;
 @property (strong,nonatomic) UIImageView * imageView;
@@ -47,7 +48,6 @@
     self.tableViewData = [[NSMutableArray alloc]init];
     
     _transition = [[DLTransitionAnimator alloc]init];
-    self.tabBarController.hidesBottomBarWhenPushed = YES;
 }
 
 #pragma mark - collectionView
@@ -182,6 +182,7 @@
 {
     DLRedirectFromTbaleViewController* vc = [[DLRedirectFromTbaleViewController alloc]init];
     [vc printSomethingParsedFormTableView:[NSString stringWithFormat:@"%@",self.tableViewData[indexPath.row]]];
+    vc.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:vc animated:YES];
 }
 

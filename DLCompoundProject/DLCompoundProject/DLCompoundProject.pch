@@ -13,6 +13,8 @@
 
 #import "Masonry.h"
 
+#define helloStr "helloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooo"
+#define helloStr2 "helloooooooooooooooooooooooooooooo"
 
 #endif /* DLCompoundProject_pch */
 

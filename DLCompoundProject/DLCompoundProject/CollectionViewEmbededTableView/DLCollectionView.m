@@ -10,8 +10,6 @@
 
 @interface DLCollectionView ()
 
-
-
 @end
 
 @implementation DLCollectionView

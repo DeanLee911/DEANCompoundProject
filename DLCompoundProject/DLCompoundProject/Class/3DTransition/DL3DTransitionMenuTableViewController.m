@@ -8,6 +8,7 @@
 
 #import "DL3DTransitionMenuTableViewController.h"
 #import "DLMenuModel.h"
+
 @interface DL3DTransitionMenuTableViewController ()
 
 @property(strong,nonatomic)DLMenuModel *menuModel;
@@ -20,8 +21,6 @@
     [super viewDidLoad];
     
     self.menuModel = [[DLMenuModel alloc]init];
-    
-
 }
 
 #pragma mark - Table view data source

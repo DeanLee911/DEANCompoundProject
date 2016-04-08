@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-//    self.tabBarController.hidesBottomBarWhenPushed = YES;
 }
 
 -(void)printSomethingParsedFormTableView:(NSString*)str
@@ -31,6 +30,5 @@
     }];
 }
 
-//-(void)
 
 @end

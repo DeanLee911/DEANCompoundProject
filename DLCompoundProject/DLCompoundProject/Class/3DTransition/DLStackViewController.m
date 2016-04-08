@@ -9,11 +9,13 @@
 #import "DLStackViewController.h"
 
 @interface DLStackViewController ()
-@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *titles;
-@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *content;
+
+@property (assign, nonatomic)   BOOL isUserClick;
 @property (weak, nonatomic) IBOutlet UIButton *hiddenBtn;
 @property (weak, nonatomic) IBOutlet UIStackView *changeTheStackViewAxis;
-@property (assign, nonatomic)   BOOL isUserClick;
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *titles;
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *content;
+
 @end
 
 @implementation DLStackViewController
@@ -21,22 +23,19 @@
     [super viewDidLoad];
 
     self.isUserClick = YES;
-    
-    for (UILabel* label in self.titles) {
-        label.text = @"Hello My World";
+
+    for (UILabel* label in self.titles)
+    {
+        label.text   = @"Hello My World";
     }
-    
-    UILabel* label1 = self.content[0];
-    label1.text = @"helloooooooooooooooooooooooooooooo";
-    
-    UILabel* label2 = self.content[1];
-    label2.text = @"helloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooohelloooooooooooooooooooooooooooooo";
 
-    
-    UILabel* label3 = self.content[2];
-    label3.text = @"helloooooooooooooooooooooooooooooo";
+    UILabel* label1  = self.content[0];
+    UILabel* label2  = self.content[1];
+    UILabel* label3  = self.content[2];
 
-
+    label1.text      = [NSString stringWithFormat:@"%s",helloStr2];
+    label2.text      = [NSString stringWithFormat:@"%s",helloStr];
+    label3.text      = [NSString stringWithFormat:@"%s",helloStr2];
 }
 
 - (IBAction)backToLastVC
@@ -54,12 +53,12 @@
         
         label.hidden = _isUserClick;
         [self.hiddenBtn setTitle:(_isUserClick ? @"Show" : @"Hide") forState:UIControlStateNormal];
+        
     } completion:^(BOOL finished) {
         
         [UIView animateWithDuration:0.5 animations:^{
             self.changeTheStackViewAxis.axis = _isUserClick ? UILayoutConstraintAxisHorizontal : UILayoutConstraintAxisVertical;
         }];
-        
     }];
 
     _isUserClick = !_isUserClick;

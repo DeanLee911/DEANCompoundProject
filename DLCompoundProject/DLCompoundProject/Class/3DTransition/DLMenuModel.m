@@ -12,8 +12,10 @@
 -(instancetype)init
 {
     if ([super init]) {
+        
         [self setupColors];
     }
+    
     return self;
 }
 
@@ -45,7 +47,6 @@
     [arrM addObject:@"unkn"];
     
     self.arrTitles = [NSArray arrayWithArray:[arrM copy]];
-
 }
 
 @end
