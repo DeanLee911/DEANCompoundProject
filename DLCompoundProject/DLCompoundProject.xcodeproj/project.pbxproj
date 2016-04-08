@@ -31,8 +31,36 @@
 		BC4CFD341CB4F05900821D1F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD271CB4F05900821D1F /* View+MASAdditions.m */; };
 		BC4CFD351CB4F05900821D1F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD2A1CB4F05900821D1F /* ViewController+MASAdditions.m */; };
 		BC4CFD391CB4F3EA00821D1F /* DLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CFD381CB4F3EA00821D1F /* DLCollectionView.m */; };
+		BC5E6A431CB74655000BD915 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5E6A421CB74655000BD915 /* NotificationCenter.framework */; };
+		BC5E6A471CB74655000BD915 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E6A461CB74655000BD915 /* TodayViewController.m */; };
+		BC5E6A4A1CB74655000BD915 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E6A481CB74655000BD915 /* MainInterface.storyboard */; };
+		BC5E6A4E1CB74655000BD915 /* DLCompoundProjectTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC5E6A401CB74655000BD915 /* DLCompoundProjectTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BC5FA37F1CB4FA1F001CF4E9 /* DLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC5E6A4C1CB74655000BD915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4CFCED1CB4EF7500821D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC5E6A3F1CB74655000BD915;
+			remoteInfo = DLCompoundProjectTodayExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC5E6A521CB74655000BD915 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BC5E6A4E1CB74655000BD915 /* DLCompoundProjectTodayExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC2B21991CB5F69F00088B77 /* DLCompoundProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCompoundProject.pch; sourceTree = "<group>"; };
@@ -86,6 +114,12 @@
 		BC4CFD2A1CB4F05900821D1F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		BC4CFD371CB4F3EA00821D1F /* DLCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionView.h; sourceTree = "<group>"; };
 		BC4CFD381CB4F3EA00821D1F /* DLCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionView.m; sourceTree = "<group>"; };
+		BC5E6A401CB74655000BD915 /* DLCompoundProjectTodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DLCompoundProjectTodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5E6A421CB74655000BD915 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BC5E6A451CB74655000BD915 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		BC5E6A461CB74655000BD915 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		BC5E6A491CB74655000BD915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BC5E6A4B1CB74655000BD915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC5FA37D1CB4FA1F001CF4E9 /* DLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionViewCell.h; sourceTree = "<group>"; };
 		BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +129,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E6A3D1CB74655000BD915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E6A431CB74655000BD915 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				BC4CFCF71CB4EF7500821D1F /* DLCompoundProject */,
+				BC5E6A441CB74655000BD915 /* DLCompoundProjectTodayExtension */,
+				BC5E6A411CB74655000BD915 /* Frameworks */,
 				BC4CFCF61CB4EF7500821D1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				BC4CFCF51CB4EF7500821D1F /* DLCompoundProject.app */,
+				BC5E6A401CB74655000BD915 /* DLCompoundProjectTodayExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +278,25 @@
 			path = ../CollectionViewEmbededTableView;
 			sourceTree = "<group>";
 		};
+		BC5E6A411CB74655000BD915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E6A421CB74655000BD915 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5E6A441CB74655000BD915 /* DLCompoundProjectTodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BC5E6A451CB74655000BD915 /* TodayViewController.h */,
+				BC5E6A461CB74655000BD915 /* TodayViewController.m */,
+				BC5E6A481CB74655000BD915 /* MainInterface.storyboard */,
+				BC5E6A4B1CB74655000BD915 /* Info.plist */,
+			);
+			path = DLCompoundProjectTodayExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,15 +307,34 @@
 				BC4CFCF11CB4EF7500821D1F /* Sources */,
 				BC4CFCF21CB4EF7500821D1F /* Frameworks */,
 				BC4CFCF31CB4EF7500821D1F /* Resources */,
+				BC5E6A521CB74655000BD915 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC5E6A4D1CB74655000BD915 /* PBXTargetDependency */,
 			);
 			name = DLCompoundProject;
 			productName = DLCompoundProject;
 			productReference = BC4CFCF51CB4EF7500821D1F /* DLCompoundProject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BC5E6A3F1CB74655000BD915 /* DLCompoundProjectTodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5E6A511CB74655000BD915 /* Build configuration list for PBXNativeTarget "DLCompoundProjectTodayExtension" */;
+			buildPhases = (
+				BC5E6A3C1CB74655000BD915 /* Sources */,
+				BC5E6A3D1CB74655000BD915 /* Frameworks */,
+				BC5E6A3E1CB74655000BD915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLCompoundProjectTodayExtension;
+			productName = DLCompoundProjectTodayExtension;
+			productReference = BC5E6A401CB74655000BD915 /* DLCompoundProjectTodayExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -264,6 +347,9 @@
 				ORGANIZATIONNAME = "Dean Lee";
 				TargetAttributes = {
 					BC4CFCF41CB4EF7500821D1F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BC5E6A3F1CB74655000BD915 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -282,6 +368,7 @@
 			projectRoot = "";
 			targets = (
 				BC4CFCF41CB4EF7500821D1F /* DLCompoundProject */,
+				BC5E6A3F1CB74655000BD915 /* DLCompoundProjectTodayExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +382,14 @@
 				BC4CFD081CB4EF7500821D1F /* LaunchScreen.storyboard in Resources */,
 				BC4CFD051CB4EF7500821D1F /* Assets.xcassets in Resources */,
 				BC4CFD031CB4EF7500821D1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC5E6A3E1CB74655000BD915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E6A4A1CB74655000BD915 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +424,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BC5E6A3C1CB74655000BD915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E6A471CB74655000BD915 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5E6A4D1CB74655000BD915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC5E6A3F1CB74655000BD915 /* DLCompoundProjectTodayExtension */;
+			targetProxy = BC5E6A4C1CB74655000BD915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BC4CFD011CB4EF7500821D1F /* Main.storyboard */ = {
@@ -346,6 +457,14 @@
 				BC4CFD071CB4EF7500821D1F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BC5E6A481CB74655000BD915 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5E6A491CB74655000BD915 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -466,6 +585,28 @@
 			};
 			name = Release;
 		};
+		BC5E6A4F1CB74655000BD915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLCompoundProjectTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject.DLCompoundProjectTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC5E6A501CB74655000BD915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLCompoundProjectTodayExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject.DLCompoundProjectTodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,6 +627,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BC5E6A511CB74655000BD915 /* Build configuration list for PBXNativeTarget "DLCompoundProjectTodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5E6A4F1CB74655000BD915 /* Debug */,
+				BC5E6A501CB74655000BD915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

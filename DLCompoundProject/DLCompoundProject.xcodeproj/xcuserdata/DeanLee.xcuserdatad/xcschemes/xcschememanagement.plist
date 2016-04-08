@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DLCompoundProjectTodayExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BC4CFCF41CB4EF7500821D1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC5E6A3F1CB74655000BD915</key>
 		<dict>
 			<key>primary</key>
 			<true/>
