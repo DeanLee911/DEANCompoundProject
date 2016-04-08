@@ -10,4 +10,6 @@
 
 @interface DL3DMainViewController : UIViewController
 
+-(void)updateMainView:(NSString* )string andColor:(UIColor*)color;
+
 @end

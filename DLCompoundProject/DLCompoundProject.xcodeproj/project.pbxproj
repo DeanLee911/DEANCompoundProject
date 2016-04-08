@@ -35,6 +35,7 @@
 		BC5E6A471CB74655000BD915 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E6A461CB74655000BD915 /* TodayViewController.m */; };
 		BC5E6A4A1CB74655000BD915 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5E6A481CB74655000BD915 /* MainInterface.storyboard */; };
 		BC5E6A4E1CB74655000BD915 /* DLCompoundProjectTodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BC5E6A401CB74655000BD915 /* DLCompoundProjectTodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BC5E6A781CB77F41000BD915 /* DLStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5E6A771CB77F41000BD915 /* DLStackViewController.m */; };
 		BC5FA37F1CB4FA1F001CF4E9 /* DLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +121,8 @@
 		BC5E6A461CB74655000BD915 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		BC5E6A491CB74655000BD915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		BC5E6A4B1CB74655000BD915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5E6A761CB77F41000BD915 /* DLStackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLStackViewController.h; sourceTree = "<group>"; };
+		BC5E6A771CB77F41000BD915 /* DLStackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLStackViewController.m; sourceTree = "<group>"; };
 		BC5FA37D1CB4FA1F001CF4E9 /* DLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCollectionViewCell.h; sourceTree = "<group>"; };
 		BC5FA37E1CB4FA1F001CF4E9 /* DLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +176,8 @@
 				BC2B21A91CB636A900088B77 /* DLMenuModel.m */,
 				BC2B21AB1CB63C0500088B77 /* DL3DViewController.h */,
 				BC2B21AC1CB63C0500088B77 /* DL3DViewController.m */,
+				BC5E6A761CB77F41000BD915 /* DLStackViewController.h */,
+				BC5E6A771CB77F41000BD915 /* DLStackViewController.m */,
 			);
 			path = 3DTransition;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 				BC2B21A11CB62F4000088B77 /* DLTransitionAnimator.m in Sources */,
 				BC4CFD2F1CB4F05900821D1F /* MASLayoutConstraint.m in Sources */,
 				BC4CFCFA1CB4EF7500821D1F /* main.m in Sources */,
+				BC5E6A781CB77F41000BD915 /* DLStackViewController.m in Sources */,
 				BC4CFD391CB4F3EA00821D1F /* DLCollectionView.m in Sources */,
 				BC4CFD351CB4F05900821D1F /* ViewController+MASAdditions.m in Sources */,
 				BC4CFD341CB4F05900821D1F /* View+MASAdditions.m in Sources */,

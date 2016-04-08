@@ -66,7 +66,6 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    [self.delegate didSelectWithModel:self.menuModel[indexPath.row]];
     if ([_delegate respondsToSelector:@selector(didSelectWithModel:andIndex:)]) {
         
         [self.delegate didSelectWithModel:self.menuModel andIndex:indexPath.row];
