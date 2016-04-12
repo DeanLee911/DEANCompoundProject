@@ -56,7 +56,7 @@
         
         return CGSizeMake(self.navigateCollectionView.frame.size.height, self.navigateCollectionView.frame.size.height);
     }
-    return CGSizeMake(self.detailCollectionView.frame.size.width, self.detailCollectionView.frame.size.height);
+    return CGSizeMake([UIScreen mainScreen].bounds.size.width, self.detailCollectionView.frame.size.height);
 }
 
 -(NSInteger)numberOfSections
@@ -83,7 +83,11 @@
     {
         //        cell.backgroundColor = [UIColor colorWithRed:((10 * indexPath.row) / 255.0) green:((20 * indexPath.row)/255.0) blue:((30 * indexPath.row)/255.0) alpha:1.0f];
         UILabel* label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.navigateCollectionView.frame.size.height, self.navigateCollectionView.frame.size.height)];
-        label.text = [NSString stringWithFormat:@"%ld",indexPath.row];
+        UIView* selectView=  [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.navigateCollectionView.frame.size.height, self.navigateCollectionView.frame.size.height)];
+        selectView.backgroundColor = [UIColor redColor];
+        cell.selectedBackgroundView = selectView;
+
+        label.text = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
         if (selectRow == indexPath.row) {
             
             self.imageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.navigateCollectionView.frame.size.height, self.navigateCollectionView.frame.size.height)];
@@ -173,7 +177,7 @@
     }
     int tempNum = rand();
     cell.textLabel.text = [NSString stringWithFormat:@"%d",tempNum];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleGray;
     [self.tableViewData addObject:@(tempNum)];
     return cell;
 }
@@ -190,6 +194,12 @@
 {
     self.transition.operation = operation;
     return self.transition;
+}
+
+-(void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [self.navigateCollectionView reloadData];
+    [self.detailCollectionView reloadData];
 }
 
 @end

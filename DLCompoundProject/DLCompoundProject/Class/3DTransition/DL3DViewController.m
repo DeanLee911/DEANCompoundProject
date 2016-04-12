@@ -41,6 +41,15 @@
     [self.mainViewController updateMainView:@"☎︎" andColor:[UIColor redColor]];
 
     self.menuViewController.delegate = self;
+    
+    
+//    [self.menuViewController.view mas_makeConstraints:^(MASConstraintMaker *make) {
+////        make.top.and.bottom.equalTo(self.mainViewController.view.superview);
+//        make.top.equalTo(self.mainViewController.view.mas_top);
+//        make.bottom.equalTo(self.mainViewController.view.mas_bottom);
+//        make.width.equalTo(@(menuWidth));
+//        make.trailing.equalTo(self.mainViewController.view.mas_leading);
+//    }];
 }
 
 -(void)handlePanGesture:(UIPanGestureRecognizer*)geusture
@@ -93,10 +102,10 @@
     mainRect.origin.x =  menuWidth * percent;
     self.mainViewController.view.frame = mainRect;
     
-    //    CGRect menuRect = self.menuViewController.view.frame;
-    //    menuRect.origin.x =  menuWidth * percent - menuWidth;
-    //    self.menuViewController.view.frame = menuRect;
-    
+//        CGRect menuRect = self.menuViewController.view.frame;
+//        menuRect.origin.x =  menuWidth * percent - menuWidth;
+//        self.menuViewController.view.frame = menuRect;
+//
     self.menuViewController.view.alpha = MAX(0.2, percent);
     self.menuViewController.view.layer.transform = [self menuTransformForPercent:percent];
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC12DE9E1CB7B2170066C860 /* DLCompoundProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC12DE9C1CB7B2170066C860 /* DLCompoundProject.xcdatamodeld */; };
+		BC12DEA11CB7B3240066C860 /* DLCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC12DEA01CB7B3240066C860 /* DLCoreDataViewController.m */; };
+		BC12DEA41CB7B5670066C860 /* DLCoredataTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC12DEA31CB7B5670066C860 /* DLCoredataTableviewCell.m */; };
 		BC2B219C1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B219B1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m */; };
 		BC2B21A11CB62F4000088B77 /* DLTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21A01CB62F4000088B77 /* DLTransitionAnimator.m */; };
 		BC2B21A71CB6365000088B77 /* DL3DTransitionMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B21A61CB6365000088B77 /* DL3DTransitionMenuTableViewController.m */; };
@@ -64,6 +67,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BC12DE9D1CB7B2170066C860 /* DLCompoundProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DLCompoundProject.xcdatamodel; sourceTree = "<group>"; };
+		BC12DE9F1CB7B3240066C860 /* DLCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCoreDataViewController.h; sourceTree = "<group>"; };
+		BC12DEA01CB7B3240066C860 /* DLCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCoreDataViewController.m; sourceTree = "<group>"; };
+		BC12DEA21CB7B5670066C860 /* DLCoredataTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCoredataTableviewCell.h; sourceTree = "<group>"; };
+		BC12DEA31CB7B5670066C860 /* DLCoredataTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCoredataTableviewCell.m; sourceTree = "<group>"; };
 		BC2B21991CB5F69F00088B77 /* DLCompoundProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLCompoundProject.pch; sourceTree = "<group>"; };
 		BC2B219A1CB60F9300088B77 /* DLRedirectFromTbaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRedirectFromTbaleViewController.h; sourceTree = "<group>"; };
 		BC2B219B1CB60F9300088B77 /* DLRedirectFromTbaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRedirectFromTbaleViewController.m; sourceTree = "<group>"; };
@@ -146,9 +154,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC12DE751CB7B1100066C860 /* CoreData&NavigationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BC12DE9C1CB7B2170066C860 /* DLCompoundProject.xcdatamodeld */,
+				BC12DE9F1CB7B3240066C860 /* DLCoreDataViewController.h */,
+				BC12DEA01CB7B3240066C860 /* DLCoreDataViewController.m */,
+				BC12DEA21CB7B5670066C860 /* DLCoredataTableviewCell.h */,
+				BC12DEA31CB7B5670066C860 /* DLCoredataTableviewCell.m */,
+			);
+			path = "CoreData&NavigationAnimation";
+			sourceTree = "<group>";
+		};
 		BC2B219D1CB62EFC00088B77 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				BC12DE751CB7B1100066C860 /* CoreData&NavigationAnimation */,
 				BC2B21A41CB6363000088B77 /* 3DTransition */,
 				BC4CFD361CB4F3C100821D1F /* CollectionViewEmbededTableView */,
 				BC2B219E1CB62EFC00088B77 /* TransitionAnimation */,
@@ -406,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4CFD331CB4F05900821D1F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BC12DE9E1CB7B2170066C860 /* DLCompoundProject.xcdatamodeld in Sources */,
 				BC2B21AD1CB63C0500088B77 /* DL3DViewController.m in Sources */,
 				BC4CFD311CB4F05900821D1F /* MASViewConstraint.m in Sources */,
 				BC4CFD2C1CB4F05900821D1F /* MASCompositeConstraint.m in Sources */,
@@ -420,6 +442,7 @@
 				BC2B21A11CB62F4000088B77 /* DLTransitionAnimator.m in Sources */,
 				BC4CFD2F1CB4F05900821D1F /* MASLayoutConstraint.m in Sources */,
 				BC4CFCFA1CB4EF7500821D1F /* main.m in Sources */,
+				BC12DEA41CB7B5670066C860 /* DLCoredataTableviewCell.m in Sources */,
 				BC5E6A781CB77F41000BD915 /* DLStackViewController.m in Sources */,
 				BC4CFD391CB4F3EA00821D1F /* DLCollectionView.m in Sources */,
 				BC4CFD351CB4F05900821D1F /* ViewController+MASAdditions.m in Sources */,
@@ -427,6 +450,7 @@
 				BC4CFD301CB4F05900821D1F /* MASViewAttribute.m in Sources */,
 				BC4CFD2D1CB4F05900821D1F /* MASConstraint.m in Sources */,
 				BC4CFD2E1CB4F05900821D1F /* MASConstraintMaker.m in Sources */,
+				BC12DEA11CB7B3240066C860 /* DLCoreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +595,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DLCompoundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject;
@@ -584,6 +610,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DLCompoundProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeanLee.DLCompoundProject;
@@ -641,8 +669,22 @@
 				BC5E6A501CB74655000BD915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC12DE9C1CB7B2170066C860 /* DLCompoundProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC12DE9D1CB7B2170066C860 /* DLCompoundProject.xcdatamodel */,
+			);
+			currentVersion = BC12DE9D1CB7B2170066C860 /* DLCompoundProject.xcdatamodel */;
+			path = DLCompoundProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC4CFCED1CB4EF7500821D1F /* Project object */;
 }
